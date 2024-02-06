@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: provisioned-manifests-env
+  namespace: default
+data:
+  env: testing

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: provisioned-manifests
+  namespace: default
+data:
+  hello: world
